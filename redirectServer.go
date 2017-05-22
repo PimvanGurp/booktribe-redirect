@@ -29,5 +29,5 @@ func findBookRedirect(filename string) string {
 
 func main() {
 	http.HandleFunc("/", redirectUrl)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 }
