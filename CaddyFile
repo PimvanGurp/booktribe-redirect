@@ -1,0 +1,4 @@
+booktribe.co:80
+gzip
+log ../access.log
+proxy / localhost:9001
